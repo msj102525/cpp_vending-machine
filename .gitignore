@@ -1,0 +1,39 @@
+# Qt build directories
+build*/
+*.pro.user*
+*.pro.user
+
+# Qt Creator generated files
+*.qmake.stash
+
+# Compiled object files
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.dylib
+
+# Makefiles and CMake build directories
+Makefile*
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+
+# Qt generated files
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+
+# Debugging files
+*.pch
+*.pdb
+*.ilk
+
+# Miscellaneous
+*.swp
+.DS_Store
+Thumbs.db
+
