@@ -51,16 +51,19 @@ void Widget::on_pb500_clicked()
 
 void Widget::on_pbCoffee_clicked()
 {
+    assert(money > 100);
     changeMoney(-100);
 }
 
 void Widget::on_pbTea_clicked()
 {
+    assert(money > 200);
     changeMoney(-200);
 }
 
 void Widget::on_pbMilk_clicked()
 {
+    assert(money > 150); // error handling
     changeMoney(-150);
 }
 
